@@ -36,7 +36,10 @@ https://github.com/webdesignchannel/optimize_html.git
 
 Установка с помощью композера:
 
-https://github.com/webdesignchannel/optimize_html.git
+~~~
+composer require webdesignchannel/optimize-html:dev-master
+composer create-project --prefer-dist webdesignchannel/optimize-html:dev-master
+~~~
 
 
 Начало работы
