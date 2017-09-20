@@ -10,5 +10,16 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+		[
+			"webdesignchannel/optimize-html":"dev-master"
+	   ]
+	}
+	
+	"repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/webdesignchannel/optimize_html"
+        }
+    ]
 }
