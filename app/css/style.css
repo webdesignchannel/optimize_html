@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "notoSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/NotoSans.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSans.woff") format("woff"), url("../fonts/NotoSans.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Ubuntu-bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Ubuntu-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu-Bold.woff") format("woff"), url("../fonts/Ubuntu-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Ubuntu-light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Ubuntu-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu-Light.woff") format("woff"), url("../fonts/Ubuntu-Light.ttf") format("truetype"); }
+
+body {
+  background: #495058; }
+
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 787px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  /**/ }
+
+@media only screen and (max-width: 400px) {
+  /**/ }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
