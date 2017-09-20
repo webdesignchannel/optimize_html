@@ -1,0 +1,14 @@
+{
+    "name": "webdesignchannel/optimize-html",
+    "description": "Optimize html framework use gulp",
+    "type": "project",
+    "license": "free",
+    "authors": [
+        {
+            "name": "Mihail Hrustalev",
+            "email": "mihailhrustalev666@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
