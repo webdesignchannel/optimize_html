@@ -9,7 +9,7 @@
             "email": "mihailhrustalev666@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
 		[
 			"webdesignchannel/optimize-html":"dev-master"
