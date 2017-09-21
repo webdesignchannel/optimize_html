@@ -80,3 +80,21 @@ yarn upgrade
 ~~~
 yarn upgrade [package]@[version]
 ~~~
+
+
+НАСТРОЙКА LIVE RELOAD
+--------------------------------
+
+Для запуска live reload на локальной машине, в файле gulpfile.js в таске (liveReload) замените конструкцию:
+
+~~~
+server: {
+	baseDir: "app"
+}
+~~~
+
+На следующую конструкцию:
+
+~~~
+proxy: "ваш локальный домен например (site.local)"
+~~~
