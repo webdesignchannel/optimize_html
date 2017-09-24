@@ -2,7 +2,6 @@
 
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
-    plumber = require('gulp-plumber'),
     browserSync = require('browser-sync'),
     autoprefixer = require('gulp-autoprefixer'),
     cleancss = require('gulp-clean-css'),
@@ -17,8 +16,7 @@ var gulp = require('gulp'),
 
 gulp.task('sass', function () {
     return gulp.src('app/sass/**/*.sass')
-        .pipe(plumber())
-        .pipe(sass({includePaths: bourbon}))
+        .pipe(sass({includePaths: bourbon}).on('error', sass.logError))
         .pipe(autoprefixer(['last 15 versions']))
         .pipe(gulp.dest('app/css'))
         .pipe(browserSync.reload({stream: true}));
@@ -28,7 +26,6 @@ gulp.task('sass', function () {
 
 gulp.task('jsmin', function () {
     return gulp.src('app/js/sources/**/*.js')
-        .pipe(plumber())
         .pipe(minify())
         .pipe(gulp.dest('prod/app/js'));
 });
@@ -50,7 +47,6 @@ gulp.task('imagemin', function () {
 
 gulp.task('cssmin', function () {
     return gulp.src('app/css/**/*.css')
-        .pipe(plumber())
         .pipe(cleancss())
         .pipe(rename({
             suffix: ".min"
