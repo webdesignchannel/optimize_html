@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "require": {
 		
-		"webdesignchannel/optimize-html":"dev"
+	    "webdesignchannel/optimize-html":"@dev"
 	  
 	},
 	
